@@ -1,8 +1,6 @@
-<p align="left">
-  <img src= https://github.com/MipsSimulator/MipsSimulator/blob/master/Images/logo.png width="250" height="250/>
-</p> <br>
-                                                                                                           
 # Pocket Mips32
+                                                                                      
+![logo](Images/logo.png)                                                                                               
 Mips 32 Simulator for Android <br>
 Programmed by Ben Hunt, James Bellian, and Aaron Hunt <br> <br> 
 <strong> Introduction </strong> <br>
@@ -42,8 +40,6 @@ The current version of the application supports a limited instruction set and do
   <br>
   </pre>
   <strong> Design </strong> <br>
-  <p align="left">
-  <img src= https://github.com/MipsSimulator/MipsSimulator/blob/master/Images/UML.png width="350" height="350/>
-</p> <br>
+![uml](Images/UML.png)   
   
   
