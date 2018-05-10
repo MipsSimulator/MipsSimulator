@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pocket Mips32</string>
+    <string name="mips32">[MIPS32]</string>
+    <string name="label_edit">Edit / Paste Assembly Code Here:</string>
+    <string name="bttnLabel_run">Run</string>
+    <string name="bttnLabel_debug">Debug</string>
+    <string name="label_authors">Programmed by Ben Hunt, James Bellian, and Aaron Hunt. This is an ongoing project and may not support all instructions.</string>
+    <string name="label_defaultCode">addi $t0, $t2, 16 \nj loop \nadd $t6, $t3, $t0  \nsw $t0, 0($sp)  \nlw $t1, 0($sp)  \naddi $t0, $t2, 16 \nloop: addi $t2, $t0, 16 \naddi $t0, $t2, -200  \naddi $t2, $t0, 16  \naddi $t0, $t2, 40 \naddi $t0, $t2, 16  \nsw $t0, -4($sp) \nlw $t5, -4($sp)</string>
+    <string name="label_editboxHint">The assembly code to execute</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
