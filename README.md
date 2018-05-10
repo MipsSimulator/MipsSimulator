@@ -44,6 +44,7 @@ The current version of the application supports a limited instruction set and do
 <br> 
 <strong> Goals </strong> <br> 
 We feel very accomplished with the current state of our Pocket Mips32 Simulator, but are aware that it is by no means a finished product. There were some features we initially intended to implement such as an IO stream and more advanced debugger functionality, but we overestimated what our team could accomplish in the given time frame. We fully intend to continue updating the App until we can distribute it as a fully functional MIPS 32 simulator. <br> Our team thanks you for your support in the development of this application and we hope that the accessibility of this tool helps future students everywhere gain a better understanding of Assembly and Computer Architecture.
-
+<br> <br> <br>
+<i> For support, questions, or error reports please contact one of our team members <br> James Bellian: j_b387@txstate.edu <br> Ben Hunt: wbh26@txstate.edu <br> Aaron Hunt: a_h230@txstate.edu </i>
   
   
