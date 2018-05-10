@@ -7,7 +7,7 @@ This Android application is part of an ongoing educational project to simulate a
 <br> 
 <strong>Setup</strong> <br> To run this application on your Android device, you will need to first install Android Studio. There is currently no APK available, so the project will need to be compiled and run manually from Android Studio. Here is a tutorial that explains how to clone the project from GitHub into Android Studio using their built in Git version control https://www.youtube.com/watch?v=Y6gmmQZsuLE<br> <br> 
 <strong>Supported Instruction Set</strong> <br> 
-The current version of the application supports a limited instruction set and does not support pseudo-instructions. Instructions that should work in this version are as follows:<br>
+The current version of the application supports a limited instruction set and does not support pseudo-instructions. Instructions currently implementated by the Executor are as follows:<br>
 <pre>
   add Rd, Rs, Rt      
   addi Rt, Rs, imm
@@ -39,6 +39,7 @@ The current version of the application supports a limited instruction set and do
   <br>
   </pre>
   <strong> Design </strong> <br>
+  We designed the app with a Model View Controller pattern. The Executor has a MainMemoryModel which simulates the MIPS memory layout and a RegisterModel to simulate the 32 registers and HI/LO values. Plain text Assembly code is parsed in our CodeParser which determines the encoding of the instruction by the instruction and its arguments. The encoding is then sent in the form of an int array to the Executor which then executes the instruction updating values in register and memory as needed. The following UML diagram shows the relationship between these classes:
 ![uml](Images/UML.png)
 
 
